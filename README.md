@@ -15,7 +15,7 @@ Table of Contents
 Overview
 ----
 
-Tyrion is a trading algorithm written in C# using the [TradingMotion SDK] development tools (there is a VB.net port too).
+Tyrion is a trading algorithm written in C# using the [TradingMotion SDK] development tools (there is a [VB.net] port too).
 
 ![Elite OHLC example chart](markdown_files/Elite_OHLC.png)
 <sub>__Image footnote:__ Example of Tyrion OHLC financial chart showing some automatic trades</sub>
@@ -73,7 +73,7 @@ Download
 
 First of all, make sure you have Visual Studio 2010 version (or higher). [TradingMotion SDK] is fully compatible with [Visual Studio Express] free versions.
 
-Download TradingMotion Visual Studio extension, and the windows desktop application [TradingMotionSDK Toolkit].
+Download TradingMotion [Visual Studio extension], and the windows desktop application [TradingMotionSDK Toolkit].
 
 
 Quick Start
@@ -82,14 +82,14 @@ Quick Start
 * Create a free account to access TradingMotionAPI (required). It can be created from TradingMotionSDK Toolkit (the desktop application)
 * Clone the repository:
 ```sh
-git clone https://github.com/victormartingarcia/Elite-Trading-Strategy-csharp
+git clone https://github.com/victormartingarcia/tyrion-trading-strategy-csharp
 ```
-* Open Visual Studio and load solution _Elite-Trading-Strategy/EliteTradingStrategy.sln_
+* Open Visual Studio and load solution _TyrionStrategy/TyrionStrategy.sln_
 * Edit _app.config_ file adding your TradingMotionAPI credentials on _appSettings_ section
 
 And you're all set!
 
-Running the project (F5) will perform a _development backtest simulation_ over last 6 months Mini-Russell 12' bars data.
+Running the project (F5) will perform a _development backtest simulation_ over last 6 months DAX 60' bars data.
 
 Once it has finished, it will ask if you want to see the P&L report in TradingMotionSDK Toolkit. Pressing 'y' will load the same backtest with the desktop app, where it will show performance statistics, charts, and so on.
 
@@ -119,23 +119,18 @@ Disclaimer
 
 I am R&D engineer at [TradingMotion LLC], and head of [TradingMotion SDK] platform. Beware, the info here can be a little biased ;)
 
-  [VB.net port]: https://github.com/victormartingarcia/Elite-Trading-Strategy-vbnet
+  [VB.net port]: https://github.com/victormartingarcia/tyrion-trading-strategy-vbnet
   [TradingMotion SDK]: http://sdk.tradingmotion.com
-  [EliteTradingStrategy.cs]: EliteTradingStrategyCSharp/EliteTradingStrategy.cs
-  [Donchian Channel]: http://www.investopedia.com/terms/d/donchianchannels.asp
+  [TyrionStrategy.cs]: TyrionStrategy/TyrionStrategy.cs
   [iSystems platform]: https://www.isystems.com
   [iSystems.com]: https://www.isystems.com
   [iSystems]: https://www.isystems.com
   [Intr Elite 10' MR 2.0 -0.1]: https://automated.isystems.com/Systems/PerformanceSheet/10297
-  [Donchian]: http://www.etoro.com/education/mastering-the-donchian-channel.aspx
-  [Exponential Moving Average]: http://www.investopedia.com/terms/e/ema.asp
-  [ADX technical indicator]: http://www.investopedia.com/articles/trading/07/adx-trend-indicator.asp
   [TradingMotion LLC]: http://www.tradingmotion.com
   [TradingMotion]: http://www.tradingmotion.com
   [Developers]: http://www.tradingmotion.com/Strategies/Developers
   [Visual Studio Express]: http://www.visualstudio.com/en-us/downloads#d-2010-express
   [TradingMotion SDK website]: http://sdk.tradingmotion.com
   [TradingMotionSDK Toolkit installer]: http://sdk.tradingmotion.com/files/TradingMotionSDKInstaller.msi
-  [2010]: http://sdk.tradingmotion.com/files/TradingMotionSDK_VisualStudio2010.vsix
-  [2012]: http://sdk.tradingmotion.com/files/TradingMotionSDK_VisualStudio2012.vsix
+  [Visual Studio extension]: http://sdk.tradingmotion.com/files/TradingMotionSDK_VisualStudio.vsix
   [More documentation in the Getting Started Guide]: http://sdk.tradingmotion.com/GettingStarted
