@@ -24,7 +24,7 @@ The strategy code is all contained in [TyrionStrategy.cs], including a default p
 
 This default parameter combination has been optimized to run over 60' bars of _DAX Future Index_.
 
-Trading a maximum of 1 contract of Mini-Russel Future, it performed a hypothetical +4.3% annual ROI since 2001, calculated over the suggested €30000 initial capital.
+Trading a maximum of 1 contract of DAX Future, it performed a hypothetical +4.3% annual ROI since 2001, calculated over the suggested €30000 initial capital.
 
 Anyway, go open Visual Studio, clone the project and start with the trading algo development! Sure you can do better and improve all these figures :)
 
