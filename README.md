@@ -73,7 +73,7 @@ Download
 
 First of all, make sure you have Visual Studio 2010 version (or higher). [TradingMotion SDK] is fully compatible with [Visual Studio Express] free versions.
 
-Download TradingMotion [Visual Studio extension], and the windows desktop application [TradingMotionSDK Toolkit].
+Download TradingMotion [Visual Studio extension], and the windows desktop application [TradingMotionSDK Toolkit installer].
 
 
 Quick Start
@@ -112,7 +112,7 @@ The trading systems run with live market data under a controlled environment in 
 
 This way the developers just need to worry about how to make their trading systems better and iSystems platform does the rest.
 
-Visit [Developers] for more info on how to develope and offer your systems.
+Visit [Developers] section on TradingMotion's website for more info on how to develop and offer your systems.
 
 Disclaimer
 ----
