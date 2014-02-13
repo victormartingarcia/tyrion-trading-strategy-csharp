@@ -17,7 +17,7 @@ Overview
 
 Tyrion is a trading algorithm written in C# using the [TradingMotion SDK] development tools (there is a [VB.net] port too).
 
-![Elite OHLC example chart](markdown_files/Elite_OHLC.png)
+![OHLC example chart](markdown_files/OHLC.png)
 <sub>__Image footnote:__ Example of Tyrion OHLC financial chart showing some automatic trades</sub>
 
 The strategy code is all contained in [TyrionStrategy.cs], including a default parameter combination.
@@ -25,6 +25,9 @@ The strategy code is all contained in [TyrionStrategy.cs], including a default p
 This default parameter combination has been optimized to run over 60' bars of _DAX Future Index_.
 
 Trading a maximum of 1 contract of DAX Future, it performed a hypothetical +4.3% annual ROI since 2001, calculated over the suggested €30000 initial capital.
+
+![Net P&L chart](markdown_files/PL.png)
+<sub>__Image footnote:__ Hypothetic Net P&L chart for automatic trading from 2001 to 2014</sub>
 
 Anyway, go open Visual Studio, clone the project and start with the trading algo development! Sure you can do better and improve all these figures :)
 
@@ -93,9 +96,6 @@ Running the project (F5) will perform a _development backtest simulation_ over l
 
 Once it has finished, it will ask if you want to see the P&L report in TradingMotionSDK Toolkit. Pressing 'y' will load the same backtest with the desktop app, where it will show performance statistics, charts, and so on.
 
-![Elite Scatter Plot](markdown_files/Elite_Scatter_Plot.png)
-<sub>__Image footnote:__ Scatter Plot 6 month backtest screenshot. It shows the net profit for each session in the simulation. In this case the best one was 13th november 2013, where it got a hypothetical net profit of $934</sub>
-
 User Manual
 ----
 
@@ -125,7 +125,6 @@ I am R&D engineer at [TradingMotion LLC], and head of [TradingMotion SDK] platfo
   [iSystems platform]: https://www.isystems.com
   [iSystems.com]: https://www.isystems.com
   [iSystems]: https://www.isystems.com
-  [Intr Elite 10' MR 2.0 -0.1]: https://automated.isystems.com/Systems/PerformanceSheet/10297
   [TradingMotion LLC]: http://www.tradingmotion.com
   [TradingMotion]: http://www.tradingmotion.com
   [Developers]: http://www.tradingmotion.com/Strategies/Developers
