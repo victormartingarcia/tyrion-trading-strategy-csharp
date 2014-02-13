@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using TradingMotion.SDK.Algorithms;
 using TradingMotion.SDK.Algorithms.InputParameters;
@@ -9,7 +9,7 @@ using TradingMotion.SDK.Markets.Indicators.StatisticFunctions;
 using TradingMotion.SDK.Markets.Orders;
 
 /// <summary>
-/// Tyrion trading rules:
+/// Tyrion rules:
 ///   * Entry: Price breaks Stochastic %D level
 ///   * Exit: Sets a Take Profit (objective) order based on price standard deviation
 ///   * Filters: None
@@ -100,7 +100,7 @@ namespace TyrionStrategy
         /// </summary>
         public override void OnInitialize()
         {
-            log.Debug("Tyrion onInitialize()");
+            log.Debug("ProfitStopStochasticLongStrategy onInitialize()");
 
             // Adding StdDev indicator to strategy 
             // (see http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:standard_deviation)
