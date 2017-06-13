@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using TradingMotion.SDK.Algorithms;
-using TradingMotion.SDK.Algorithms.InputParameters;
-using TradingMotion.SDK.Markets.Charts;
-using TradingMotion.SDK.Markets.Indicators.Momentum;
-using TradingMotion.SDK.Markets.Indicators.StatisticFunctions;
+using TradingMotion.SDKv2.Algorithms;
+using TradingMotion.SDKv2.Algorithms.InputParameters;
+using TradingMotion.SDKv2.Markets.Charts;
+using TradingMotion.SDKv2.Markets.Indicators.Momentum;
+using TradingMotion.SDKv2.Markets.Indicators.StatisticFunctions;
 
-using TradingMotion.SDK.Markets.Orders;
+using TradingMotion.SDKv2.Markets.Orders;
 
 /// <summary>
 /// Tyrion rules:
