@@ -76,7 +76,7 @@ Download
 
 First of all, make sure you have Visual Studio 2010 version (or higher). [TradingMotion SDK] is fully compatible with [Visual Studio Express] free versions.
 
-Download TradingMotion [Visual Studio extension], and the windows desktop application [TradingMotionSDK Toolkit installer].
+Download the windows desktop application [TradingMotionSDK Toolkit installer].
 
 
 Quick Start
@@ -119,17 +119,18 @@ Disclaimer
 
 I am R&D engineer at [TradingMotion LLC], and head of [TradingMotion SDK] platform. Beware, the info here can be a little biased ;)
 
-  [VB.net port]: https://github.com/victormartingarcia/tyrion-trading-strategy-vbnet
-  [TradingMotion SDK]: http://sdk.tradingmotion.com
-  [TyrionStrategy.cs]: TyrionStrategy/TyrionStrategy.cs
-  [iSystems platform]: https://www.isystems.com
-  [iSystems.com]: https://www.isystems.com
-  [iSystems]: https://www.isystems.com
-  [TradingMotion LLC]: http://www.tradingmotion.com
-  [TradingMotion]: http://www.tradingmotion.com
-  [Developers]: http://www.tradingmotion.com/Strategies/Developers
-  [Visual Studio Express]: http://www.visualstudio.com/en-us/downloads#d-2010-express
-  [TradingMotion SDK website]: http://sdk.tradingmotion.com
-  [TradingMotionSDK Toolkit installer]: http://sdk.tradingmotion.com/files/TradingMotionSDKInstaller.msi
-  [Visual Studio extension]: http://sdk.tradingmotion.com/files/TradingMotionSDK_VisualStudio.vsix
-  [More documentation in the Getting Started Guide]: http://sdk.tradingmotion.com/GettingStarted
+ [VB.net port]: https://github.com/victormartingarcia/tyrion-trading-strategy-vbnet
+ [TradingMotion SDK]: https://sdk.tradingmotion.com
+ [TyrionStrategy.cs]: TyrionStrategy/TyrionStrategy.cs
+ [iSystems platform]: https://www.isystems.com
+ [iSystems.com]: https://www.isystems.com
+ [iSystems]: https://www.isystems.com
+ [TradingMotion LLC]: https://www.tradingmotion.com
+ [TradingMotion]: https://www.tradingmotion.com
+ [Developers]: https://www.tradingmotion.com/Strategies/Developers
+ [Visual Studio Express]: http://www.visualstudio.com/en-us/downloads#d-2010-express
+ [TradingMotion SDK website]: http://sdk.tradingmotion.com
+ [TradingMotionSDK Toolkit installer]: https://sdk.tradingmotion.com/files/TradingMotionSDKv2Installer.msi
+ [More documentation in the Getting Started Guide]: https//sdk.tradingmotion.com/GettingStarted
+
+
